@@ -1,0 +1,23 @@
+La distancia de malahaasdasdafsdftuputamadre
+Primero se calcula la matriz de Varianza/Covarianza con la letra Sigma mayuscula(S_1)
+
+Notacion:
+C_1:Muestras de la Clase 1
+C_2:Muestras de la Clase 1
+x:Vector incognito
+S_1:Matriz Varianza/Covarianza de la clase 1
+S_2:Matriz Varianza/Covarianza de la clase 2
+u_1:Vector media de la clase 1
+u_2:Vector media de la clase 2
+d_1:Distancia del vector incognito a la clase 1
+d_2:Distancia del vector incognito a la clase 2
+
+
+
+S_1=(C_1-u_1)*((C_1-u_1)^T)
+S_2=(C_2-u_2)*((C_2-u_2)^T)
+
+d_1=(x-u_1)*S_1*((x-u_1)^T)
+
+
+
